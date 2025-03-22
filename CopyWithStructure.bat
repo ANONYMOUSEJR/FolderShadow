@@ -4,11 +4,12 @@ color a
 title Structure Clone (v1.0)
 
 :: BatchGotAdmin
-if "%~1"=="" exit /b
 >nul 2>&1 net session || (
     powershell -WindowStyle Hidden -Command "Start-Process -FilePath '%~f0' -ArgumentList '%*' -Verb RunAs"
     exit /b
 )
+
+if "%~1"=="" exit /b
 
 set "DEST=%USERPROFILE%\Desktop\FolderStructureBackup"
 mkdir "%DEST%" >nul 2>&1

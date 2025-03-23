@@ -1,4 +1,4 @@
-# FolderShadow
+# FolderShadow (Doesnt Work)
 
 **Preserve full folder paths when copying files or folders — directly from the right-click context menu.**  
 A Windows batch script that lets you replicate entire directory structures of selected items and back them up with one click.

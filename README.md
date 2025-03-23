@@ -18,7 +18,7 @@ A Windows batch script that lets you replicate entire directory structures of se
 
 ## 🛠 Setup
 
-1. 📄 Place the `StructureClone.bat` script in a permanent location (e.g. `C:\Scripts\StructureClone.bat`)
+1. 📄 Place the `CopyWithStructure.bat` script in a permanent location (e.g. `C:\Scripts\CopyWithStructure.bat`)
 2. 🧾 Add it to the Windows context menu:
 
 ### Context Menu:
